@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kết quả</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Kết quả thông tin sinh viên</h2>
+        <p><strong>Username:</strong> {{ data.username }}</p>
+        <p><strong>Password:</strong> {{ data.password }}</p>
+        <p><strong>Gender:</strong> {{ data.gender }}</p>
+        <p><strong>Membership:</strong> {{ data.membership }}</p>
+        <p><strong>Favorite Color:</strong> {{ data.favcolor }}</p>
+        <p><strong>Correct:</strong> {{ 'Có' if data.correct else 'Không' }}</p>
+    </div>
+</body>
+</html>

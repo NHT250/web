@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thông tin sinh viên</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Thông tin sinh viên</h1>
+        <table>
+            <tr><th>Họ tên:</th><td>{{ student.name }}</td></tr>
+            <tr><th>MSSV:</th><td>{{ student.id }}</td></tr>
+            <tr><th>Niên khóa:</th><td>{{ student.year }}</td></tr>
+            <tr><th>Ngành học:</th><td>{{ student.major }}</td></tr>
+            <tr>
+                <th>Sở thích:</th>
+                <td>
+                    <ul>
+                        {% for hobby in student.hobbies %}
+                            <li>{{ hobby }}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

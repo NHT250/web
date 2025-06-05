@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7faff;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.form-container {
+    background: white;
+    padding: 25px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+input[type="text"], input[type="password"], input[list], input[type="color"] {
+    width: 100%;
+    padding: 6px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
