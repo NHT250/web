@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <p>1. How often do you use our service?</p>
+        <input type="radio" id="daily" name="usage" value="daily">
+        <label for="daily">Daily</label><br>
+        <input type="radio" id="weekly" name="usage" value="weekly">
+        <label for="weekly">Weekly</label><br>
+        <input type="radio" id="rarely" name="usage" value="rarely">
+        <label for="rarely">Rarely</label><br><br>
+
+        <p>2. What features do you like? (Select all that apply)</p>
+        <input type="checkbox" id="feature1" name="features" value="interface">
+        <label for="feature1">User Interface</label><br>
+        <input type="checkbox" id="feature2" name="features" value="speed">
+        <label for="feature2">Speed</label><br>
+        <input type="checkbox" id="feature3" name="features" value="support">
+        <label for="feature3">Customer Support</label><br><br>
+
+        <label for="suggestions">Additional Suggestions:</label><br>
+        <textarea id="suggestions" name="suggestions" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit Survey">
+    </form>
+</body>
+</html>
