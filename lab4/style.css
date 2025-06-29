@@ -1,0 +1,456 @@
+a:hover {
+    color: #fff;
+    background-color: #000;
+}
+h1 {
+    color: #5ebbff;
+   font-weight: normal;
+}
+#heading {
+    color: red;
+    font-size: 24px;
+}
+
+.paragraph {
+    color: green;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    border: 2px solid #000;
+    border-radius: 999px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: ease .25s;
+
+}
+
+a:hover {
+    color: #fff;
+    background-color: #000;
+}
+.post-item .title {
+    color: red;
+    font-size: 28px;
+}
+
+h1#heading.title-group {
+    color: #333;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 50px;
+}
+
+.box1 {
+    width: 25%;
+    background-color: green;
+}
+
+.box2 {
+    width: 50%;
+    background-color: violet;
+}
+
+.box3 {
+    width: 75%;
+    background-color: brown;
+}
+
+.box4 {
+    width: 100%;
+    background-color: orange;
+}
+
+
+:root {
+    --heading-color: #333333;
+    --text-color: #404040;
+}
+
+h1 {
+    color: var(--heading-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+
+.box-1 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+
+.box-2 {
+    width: 50%;
+    height: 50%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #f05123;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    background-color: rgba(240, 81, 35, 0.8);
+    outline: 2px solid #fff;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+}
+
+
+
+.content {
+    background-color: #ebebeb;
+    padding: 16px; 
+}
+
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+.fb-group {
+    padding: 16px;
+}
+
+
+.heading {
+    font-size: 2.8rem;
+}
+
+
+.desc {
+    font-size: 1.6rem;
+}
+
+
+.button-link {
+    color: #fff;
+    background-color: #1b74e4;
+    font-size: 1.6rem;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.fb-group {
+  padding: 16px;
+}
+
+.heading {
+  font-size: 2.8rem;
+}
+
+.desc {
+  font-size: 1.6rem;
+}
+
+.button-link {
+  color: #333;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 2px solid #333;
+  text-decoration: none;
+}
+
+
+.button-link:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+.heading {
+  font-size: 2.6rem;
+}
+
+.post-item {
+  padding: 16px;
+  border: 2px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.post-item .title {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.post-item p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.post-item .post-read {
+  color: #666;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-top: 12px;   
+}
+
+.post-item + .post-item {
+  margin-top: 32px;  
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  padding: 16px;
+  box-sizing: border-box; 
+}
+
+
+.box {
+  height: 500px;
+  background-image: url(https://online.vlu.edu.vn/Content/logo/banner-yersin.jpg);
+  background-size: 150px;
+  background-repeat: repeat-y;
+}
+
+.box {
+  width: 300px;
+  height: 500px;
+  background-image: url(https://online.vlu.edu.vn/Content/logo/banner-yersin.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.box {
+  width: 300px;
+  height: 200px;
+  background: #f0f0f0 url(https://online.vlu.edu.vn/Content/logo/banner-yersin.jpg) no-repeat center / contain;
+}
+
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  top: -50px; 
+}
+
+
+.box {
+  width: 500px;
+  height: 250px;
+  position: relative;
+  background-color: #ccc;
+}
+
+.box-child {
+  background-color: rgba(128, 0, 128, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+.box {
+  height: 2000px;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+}
+
+.content {
+  margin-top: 60px; 
+}
+
+
+.box {
+  height: 2000px;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  margin-top: 30px;
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+
+.container {
+  width: 80vw;
+  height: 50vh;
+  background-color: #f0f0f0;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.text {
+  font-size: 5vw;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #e0e0e0;
+}
+
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: #1b74e4;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.grid-item {
+  background-color: #1b74e4;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+.responsive-box {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    width: 100%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+
+
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: #1b74e4;
+  transition: transform 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.animated-box:hover {
+  transform: scale(1.2);
+  animation-play-state: paused;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+
+.list li:first-child {
+  color: red;
+}
+
+.list li:last-child {
+  color: blue;
+}
+
+.list li:nth-child(2) {
+  font-weight: bold;
+}
