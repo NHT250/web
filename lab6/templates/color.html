@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color Changer</title>
+</head>
+<body style="background-color: {{ bg_color}}">
+  <h1>Change Background Color</h1>
+  <form method="POST" action="{{ url_for('color') }}">
+    <input type="text" name="color" placeholder="Enter color (e.g., red, #FF0000)" required>
+    <button type="submit">Change Color</button>
+  </form>
+</body>
+</html>

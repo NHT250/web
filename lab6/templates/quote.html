@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Quote</title>
+</head>
+<body>
+    <h1>Quote of the Day</h1>
+    <p>{{ quote }}</p>
+    <form action="{{ url_for('quote') }}">
+        <button type="submit">Get New Quote</button>
+    </form>
+</body>
+</html>

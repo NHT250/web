@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event List</title>
+</head>
+<body>
+    <h1>Event List</h1>
+    <form method="POST" action="{{ url_for('event_list') }}">
+        <input type="text" name="name" placeholder="Event name" required>
+        <input type="date" name="date" required>
+        <button type="submit">Add Event</button>
+    </form>
+    <h2>Events</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+        </tr>
+        {% for event in events %}
+            <tr>
+                <td>{{ event.name }}</td>
+                <td>{{ event.date }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

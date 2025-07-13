@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Score Calculator</title>
+</head>
+<body>
+    <h1>Score Calculator</h1>
+    <form method="POST" action="{{ url_for('score') }}">
+        <input type="text" name="score" placeholder="Enter score (0-100)" required>
+        <button type="submit">Add Score</button>
+    </form>
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <h2>Scores</h2>
+    <ul>
+        {% for score in scores %}
+            <li>{{ score }}</li>
+        {% endfor %}
+    </ul>
+    {% if average %}
+        <p>Average Score: {{ average|round(2) }}</p>
+    {% endif %}
+</body>
+</html>

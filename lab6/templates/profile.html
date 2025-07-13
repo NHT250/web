@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Profile</title>
+</head>
+<body>
+    <h1>Welcome to your profile, {{ username }}!</h1>
+    {% if is_admin %}
+        <p>Hello Admin, you have special access!</p>
+    {% endif %}
+</body>
+</html>

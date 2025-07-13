@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Poll</title>
+</head>
+<body>
+    <h1>Vote: Cats or Dogs?</h1>
+    <form method="POST" action="{{ url_for('poll') }}">
+        <input type="radio" name="vote" value="Cats" required> Cats
+        <input type="radio" name="vote" value="Dogs"> Dogs
+        <button type="submit">Vote</button>
+    </form>
+    <h2>Results</h2>
+    <p>Cats: {{ results.Cats|round(2) }}% ({{ votes.Cats }} votes)</p>
+    <p>Dogs: {{ results.Dogs|round(2) }}% ({{ votes.Dogs }} votes)</p>
+</body>
+</html>
