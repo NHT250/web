@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Calculator</title>
+</head>
+<body>
+    <h1>Square Calculator</h1>
+    <form method="POST" action="{{ url_for('square') }}">
+        <input type="text" name="number" placeholder="Enter a number" required>
+        <button type="submit">Calculate</button>
+    </form>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
